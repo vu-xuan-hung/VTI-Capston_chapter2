@@ -1,0 +1,15 @@
+# Read the saved runs with python main.py trace-show <path>.
+[agent_error]
+case = "D11"
+trace = "runtime/traces/20261120-003006-v1-D11.json:42"
+wrong_argument = "The model called get_value with indicator=unemployment_rate. The tool rejected the unsupported argument at line 50 and v1 returned no_data."
+should_have_been = "Decline the question as out_of_scope at the indicator check. FactDesk supports GDP, GDP per capita and population."
+
+[verify_saved]
+case = "D02"
+trace = "runtime/traces/20261120-003449-v2-D02.json:1111"
+bad_numbers = "The saved v1 answer says $165 trillion (runtime/traces/20261120-001230-v1-D02.json:54). The table records $1,651,422,932,447.77. The saved v2 trace accepts $1.65 trillion on its first attempt."
+what_verify_did = "This is the closest observed case. The v2 verifier accepted the correctly rounded amount with no bad numbers at line 1124. The saved v2 explanations never triggered a retry or template. Replaying the v1 wording against the same facts flags 165 trillion."
+
+[tool_choice]
+when_agent_is_enough = "Use v1 for draft copy when a person already has the source table and can verify the number before publication. D01 returned the correct Vietnam population. For publishable figures I would use v2 because it checks the numbers and can decline missing data. Across 12 cases it averaged 62.01 seconds and 1.75 model calls, compared with 118.22 seconds and 2.00 for v1."

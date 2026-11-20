@@ -1,0 +1,25 @@
+# Packages of the capstone project (LangChain + LangGraph + LangSmith, local Qwen, Chroma).
+# Langflow is NOT here: it pins many packages of its own and lives in its own environment
+# (see requirements-langflow.txt).
+# Tested 2026-11-16 (resolved by `conda env create`): torch 2.15.0, transformers 5.23.0, sentence-transformers 6.3.0,
+# chromadb 1.5.9, langchain 1.5.0, langchain-core 1.8.1, langgraph 1.2.22, langgraph-checkpoint-sqlite 3.1.3,
+# langchain-huggingface 1.2.3, langchain-chroma 1.1.0, langsmith 0.14.17, pytest 9.2.0.
+# Linux CPU-only machines: run this first to avoid the large CUDA download:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+torch>=2.4
+transformers>=5.0,<6
+sentence-transformers>=6.0,<7
+chromadb>=1.5,<2
+langchain>=1.4,<2
+langchain-core>=1.6,<2
+langgraph>=1.2.12,<2
+langgraph-checkpoint-sqlite>=3.1,<4
+langchain-huggingface>=1.2,<2
+langchain-chroma>=1.1,<2
+langsmith>=0.14,<1
+numpy>=2.0
+pytest>=8.4
+ruff>=0.13
+# Optional extras: uncomment when the project needs them.
+# pyyaml>=6.0                     # YAML data or prompt files
+# pandas>=2.2                     # tables in reports or notebooks

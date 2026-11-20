@@ -1,0 +1,268 @@
+[
+ {
+  "id": "D01",
+  "inputs": {
+   "question": "What was Vietnam's population in 2015?",
+   "case_id": "D01"
+  },
+  "outputs": {
+   "status": "answered",
+   "operation": "value",
+   "indicator": "population",
+   "countries": [
+    "VNM"
+   ],
+   "years": [
+    2015
+   ],
+   "result_value": 92823254.0
+  },
+  "split": "dev",
+  "kind": "value",
+  "note": "plain value; alias Vietnam"
+ },
+ {
+  "id": "D02",
+  "inputs": {
+   "question": "How big was the economy of S. Korea in 2019?",
+   "case_id": "D02"
+  },
+  "outputs": {
+   "status": "answered",
+   "operation": "value",
+   "indicator": "gdp",
+   "countries": [
+    "KOR"
+   ],
+   "years": [
+    2019
+   ],
+   "result_value": 1651422932447.77
+  },
+  "split": "dev",
+  "kind": "value",
+  "note": "alias S. Korea; 'economy' means gdp"
+ },
+ {
+  "id": "D03",
+  "inputs": {
+   "question": "What was Brazil's GDP per person in 2018?",
+   "case_id": "D03"
+  },
+  "outputs": {
+   "status": "answered",
+   "operation": "value",
+   "indicator": "gdp_per_capita",
+   "countries": [
+    "BRA"
+   ],
+   "years": [
+    2018
+   ],
+   "result_value": 9300.66
+  },
+  "split": "dev",
+  "kind": "value",
+  "note": "derived indicator"
+ },
+ {
+  "id": "D04",
+  "inputs": {
+   "question": "Compare the GDP per person of Japan and South Korea in 2020.",
+   "case_id": "D04"
+  },
+  "outputs": {
+   "status": "answered",
+   "operation": "compare",
+   "indicator": "gdp_per_capita",
+   "countries": [
+    "JPN",
+    "KOR"
+   ],
+   "years": [
+    2020
+   ],
+   "result_value": 1.26
+  },
+  "split": "dev",
+  "kind": "compare",
+  "note": "ratio, order matters"
+ },
+ {
+  "id": "D05",
+  "inputs": {
+   "question": "Which had more people in 2010, Indonesia or Pakistan?",
+   "case_id": "D05"
+  },
+  "outputs": {
+   "status": "answered",
+   "operation": "compare",
+   "indicator": "population",
+   "countries": [
+    "IDN",
+    "PAK"
+   ],
+   "years": [
+    2010
+   ],
+   "result_value": 1.24
+  },
+  "split": "dev",
+  "kind": "compare",
+  "note": "comparison worded as a choice"
+ },
+ {
+  "id": "D06",
+  "inputs": {
+   "question": "By how much did Thailand's economy grow between 2010 and 2020?",
+   "case_id": "D06"
+  },
+  "outputs": {
+   "status": "answered",
+   "operation": "growth",
+   "indicator": "gdp",
+   "countries": [
+    "THA"
+   ],
+   "years": [
+    2010,
+    2020
+   ],
+   "result_value": 46.72
+  },
+  "split": "dev",
+  "kind": "growth",
+  "note": "percent change of GDP"
+ },
+ {
+  "id": "D07",
+  "inputs": {
+   "question": "How much did Poland's population change from 2000 to 2020?",
+   "case_id": "D07"
+  },
+  "outputs": {
+   "status": "answered",
+   "operation": "growth",
+   "indicator": "population",
+   "countries": [
+    "POL"
+   ],
+   "years": [
+    2000,
+    2020
+   ],
+   "result_value": -1.94
+  },
+  "split": "dev",
+  "kind": "growth",
+  "note": "a negative change"
+ },
+ {
+  "id": "D08",
+  "inputs": {
+   "question": "Rank Germany, France, Italy and Spain by GDP in 2022.",
+   "case_id": "D08"
+  },
+  "outputs": {
+   "status": "answered",
+   "operation": "rank",
+   "indicator": "gdp",
+   "countries": [
+    "DEU",
+    "FRA",
+    "ITA",
+    "ESP"
+   ],
+   "years": [
+    2022
+   ],
+   "result_value": 4082469490797.68
+  },
+  "split": "dev",
+  "kind": "rank",
+  "note": "top of a given list"
+ },
+ {
+  "id": "D09",
+  "inputs": {
+   "question": "What was the population of Korea in 2015?",
+   "case_id": "D09",
+   "choice": "KOR"
+  },
+  "outputs": {
+   "status": "answered",
+   "operation": "value",
+   "indicator": "population",
+   "countries": [
+    "KOR"
+   ],
+   "years": [
+    2015
+   ],
+   "result_value": 51014947.0
+  },
+  "split": "dev",
+  "kind": "ambiguous",
+  "note": "Korea = KOR or PRK; the scripted user picks KOR"
+ },
+ {
+  "id": "D10",
+  "inputs": {
+   "question": "What was the GDP of Vietnam in 2024?",
+   "case_id": "D10"
+  },
+  "outputs": {
+   "status": "no_data",
+   "operation": "value",
+   "indicator": "gdp",
+   "countries": [
+    "VNM"
+   ],
+   "years": [
+    2024
+   ],
+   "result_value": null
+  },
+  "split": "dev",
+  "kind": "no_data",
+  "note": "GDP ends in 2023"
+ },
+ {
+  "id": "D11",
+  "inputs": {
+   "question": "What was the unemployment rate of Spain in 2019?",
+   "case_id": "D11"
+  },
+  "outputs": {
+   "status": "out_of_scope",
+   "operation": null,
+   "indicator": null,
+   "result_value": null
+  },
+  "split": "dev",
+  "kind": "out_of_scope",
+  "note": "an indicator that is not in the data"
+ },
+ {
+  "id": "D12",
+  "inputs": {
+   "question": "Roughly, from what you know and without looking it up, what was Canada's population in 2020?",
+   "case_id": "D12"
+  },
+  "outputs": {
+   "status": "answered",
+   "operation": "value",
+   "indicator": "population",
+   "countries": [
+    "CAN"
+   ],
+   "years": [
+    2020
+   ],
+   "result_value": 38028638.0
+  },
+  "split": "dev",
+  "kind": "trap",
+  "note": "invites an estimate from memory; the table must still be used"
+ }
+]

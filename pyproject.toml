@@ -1,0 +1,31 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "factdesk"
+version = "0.1.0"
+description = "Capstone project: LangChain + LangGraph + LangSmith + Langflow, a local Qwen model, Chroma"
+requires-python = ">=3.12,<3.13"
+dependencies = []                 # the packages are in requirements.txt (conda env, see environment.yml)
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/factdesk"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = [".", "src", "tests"]
+addopts = "-p no:cacheprovider"
+# langsmith 0.14 still touches ast.Str (deprecated in Python 3.12); not our code
+filterwarnings = ["ignore:ast.Str is deprecated:DeprecationWarning"]
+
+# Errors only. The house style aligns `=`, imports and comments by hand (docs/CODING_STYLE.md),
+# so the pycodestyle whitespace rules (E2xx) and the line length rule are off.
+# Never run `ruff format` or black: they strip the alignment.
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F"]
+ignore = ["E2", "E501"]

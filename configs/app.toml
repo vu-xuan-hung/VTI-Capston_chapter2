@@ -1,0 +1,129 @@
+# Settings of this project. Paths resolve from the project root (the folder of main.py).
+# Every key is checked: a typo stops the program with the list of allowed keys.
+
+[model]
+backend = "local"                  # "local" = Qwen in this process; "server" = the model server; "fake" = no download
+chat_model = "Qwen/Qwen2.5-1.5B-Instruct"
+small_chat_model = "Qwen/Qwen2.5-0.5B-Instruct"   # serve-model --small; for a weak laptop
+embedding_model = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+max_new_tokens = 300
+
+[knowledge]
+collection = "factdesk-entities"
+store = "embedded"   # "embedded" = open kb_store here; "server" = `chroma run` (shared with Langflow)
+chunk_size = 60                    # words per chunk
+chunk_overlap = 15                 # words repeated from the previous chunk
+top_k = 3
+threshold = 0.20                   # cosine similarity (1 - distance); the retriever drops weaker chunks
+
+[paths]
+root = "."
+data_dir = "data"
+docs_dir = "data/docs"             # the documents `python main.py index` reads (.md, .txt, .json)
+runtime_dir = "runtime"            # traces and checkpoints; safe to delete
+results_dir = "results"            # saved experiments
+kb_dir = "kb_store"                # the Chroma folder: embedded, or `chroma run --path kb_store`
+
+[servers]
+model_host = "127.0.0.1"
+model_port = 8000
+chroma_host = "127.0.0.1"
+chroma_port = 8001
+request_timeout = 300.0            # seconds
+langflow_url = "http://127.0.0.1:7860"
+flow_name = "factdesk-rag"           # the name of the flow in Langflow
+
+[tracing]
+project = "factdesk"                 # LangSmith project (project-based workspaces)
+tags = ["factdesk"]
+dataset = "factdesk-dataset"         # LangSmith dataset, created once by the cloud experiment
+
+[facts]
+population_csv = "population/data/population.csv"   # under paths.raw_dir
+gdp_csv = "gdp/data/gdp.csv"
+min_year = 1990
+keep_aggregates = ["WLD"]          # the only aggregate that stays: the World
+# Hand-checked against the 264 codes of population.csv (and gdp.csv): regions, income groups, lending groups,
+# demographic-dividend groups, small-state groups, unions. Kosovo (XKX) is a country and is NOT in this list.
+aggregate_codes = [
+    "AFE", "AFW", "ARB", "CEB", "CHI", "CSS", "EAP", "EAR", "EAS", "ECA", "ECS", "EMU", "EUU", "FCS", "HIC",
+    "HPC", "IBD", "IBT", "IDA", "IDB", "IDX", "LAC", "LCN", "LDC", "LIC", "LMC", "LMY", "LTE", "MEA", "MIC",
+    "MNA", "NAC", "OED", "OSS", "PRE", "PSS", "PST", "SAS", "SSA", "SSF", "SST", "TEA", "TEC", "TLA", "TMN",
+    "TSA", "TSS", "UMC",
+]
+
+# Everyday names the World Bank names do not contain. The prepare step adds the World Bank name, the code, the part
+# before a comma or bracket ("Korea, Rep." -> "Korea") and "St." -> "Saint" by rule; an alias shared by two countries
+# (Korea, Congo) is what makes a question ambiguous.
+[facts.aliases]
+ARE = ["UAE", "Emirates"]
+BHS = ["Bahamas"]
+BRN = ["Brunei"]
+CIV = ["Ivory Coast"]
+COD = ["DR Congo", "DRC", "Democratic Republic of the Congo", "Congo-Kinshasa"]
+COG = ["Congo-Brazzaville", "Republic of the Congo"]
+CPV = ["Cape Verde"]
+CZE = ["Czech Republic"]
+EGY = ["Egypt"]
+FSM = ["Micronesia"]
+GBR = ["UK", "U.K.", "Britain", "Great Britain", "England"]
+HKG = ["Hong Kong"]
+IRN = ["Iran"]
+KGZ = ["Kyrgyzstan"]
+KOR = ["South Korea", "S. Korea", "Republic of Korea", "Korea Republic"]
+LAO = ["Laos"]
+MAC = ["Macau"]
+MKD = ["Macedonia"]
+MMR = ["Burma"]
+NLD = ["Holland"]
+PRK = ["North Korea", "N. Korea", "DPRK"]
+PSE = ["Palestine"]
+RUS = ["Russia"]
+SVK = ["Slovakia"]
+SWZ = ["Swaziland"]
+SYR = ["Syria"]
+TLS = ["East Timor"]
+TUR = ["Turkey"]
+USA = ["US", "U.S.", "U.S.A.", "USA", "America", "United States of America"]
+VEN = ["Venezuela"]
+VNM = ["Vietnam"]
+WLD = ["the world", "global", "worldwide", "whole world"]
+YEM = ["Yemen"]
+
+[numbers]
+money_decimals = 2
+per_person_decimals = 2
+ratio_decimals = 2
+percent_decimals = 2
+small_int_max = 12
+year_min = 1900
+year_max = 2100
+slack = 1.0
+
+[numbers.scales]
+thousand = 1000.0
+million = 1000000.0
+billion = 1000000000.0
+trillion = 1000000000000.0
+
+[graph]
+link_k = 3
+ambiguity_margin = 0.05
+country_min_score = 0.45
+country_confident_score = 0.70
+indicator_min_score = 0.50
+max_tries = 2
+outbox_file = "outbox.jsonl"
+agent_max_steps = 12
+
+# The "what does this number mean" chain. The Langflow flow must use exactly these values (flows/FLOW_SPEC.json).
+[rag]
+k = 3
+max_tokens = 200
+parser_pattern = "[{chunk_id}] {text}"
+system = "You explain what a statistic in a data set means. Use only the notes. If the notes do not say, answer: I do not know from the notes. Answer in one to three short sentences."
+template = "Notes:\n{context}\n\nQuestion: {question}\nAnswer:"
+
+[evaluation]
+result_rel_tol = 0.001
+trace_label_sep = "-"

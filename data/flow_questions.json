@@ -1,0 +1,6 @@
+[
+  {"id": "F1", "question": "What does GDP mean?", "expected_terms": ["goods and services"], "numeric": false},
+  {"id": "F2", "question": "Is the GDP in this table adjusted for inflation?", "expected_terms": ["current", "not adjusted"], "numeric": false},
+  {"id": "F3", "question": "How is GDP per person computed here?", "expected_terms": ["divided by", "population"], "numeric": false},
+  {"id": "F4", "question": "What was the population of Vietnam in 2015?", "expected_terms": [], "numeric": true}
+]

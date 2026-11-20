@@ -1,0 +1,23 @@
+[
+ {
+  "source_id": "indicator-population",
+  "title": "Population",
+  "text": "Population. Total population: the number of people of a country in a year, from the World Bank series SP.POP.TOTL. Also called: population, number of people, inhabitants, residents, how many people live, headcount.",
+  "kind": "indicator",
+  "indicator": "population"
+ },
+ {
+  "source_id": "indicator-gdp",
+  "title": "GDP",
+  "text": "GDP. Gross domestic product: the total value of goods and services a country produces in a year, in current US dollars (World Bank series NY.GDP.MKTP.CD). Also called: gdp, gross domestic product, economy size, size of the economy, economy, economic output, total output.",
+  "kind": "indicator",
+  "indicator": "gdp"
+ },
+ {
+  "source_id": "indicator-gdp_per_capita",
+  "title": "GDP per person",
+  "text": "GDP per person. GDP per person: GDP divided by the population of the same year, in current US dollars. Computed by this project from the two World Bank series; it is not a separate World Bank download. Also called: gdp per capita, gdp per person, gdp per head, per capita gdp, output per person, economic output per inhabitant.",
+  "kind": "indicator",
+  "indicator": "gdp_per_capita"
+ }
+]

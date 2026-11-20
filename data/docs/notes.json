@@ -1,0 +1,50 @@
+[
+ {
+  "source_id": "note-population-source",
+  "title": "Where the population numbers come from",
+  "text": "Population is the World Bank series SP.POP.TOTL, total population. The World Bank lists as its sources the UN Population Division, the UN Statistical Division, national statistical offices, Eurostat, the Pacific Community and the U.S. Census Bureau. The values cover 1960 to 2025 in the source file.",
+  "kind": "note"
+ },
+ {
+  "source_id": "note-gdp-source",
+  "title": "Where the GDP numbers come from",
+  "text": "GDP is the World Bank series NY.GDP.MKTP.CD: gross domestic product in current US dollars, from World Bank and OECD national accounts data. The values cover 1960 to 2023 in the source file, so there is no GDP for 2024 or 2025.",
+  "kind": "note"
+ },
+ {
+  "source_id": "note-gdp-meaning",
+  "title": "What GDP means",
+  "text": "GDP, gross domestic product, is the total value of the goods and services a country produces in one year. It measures the size of an economy. It is not the same as income of the people or the wealth of a country.",
+  "kind": "note"
+ },
+ {
+  "source_id": "note-current-prices",
+  "title": "Current US dollars, no inflation adjustment",
+  "text": "GDP here is in current US dollars: each year is valued at that year's prices and converted to dollars. It is not adjusted for inflation, so a growth percentage between two years includes price changes and exchange rate moves, not only more output.",
+  "kind": "note"
+ },
+ {
+  "source_id": "note-not-ppp",
+  "title": "Not adjusted for purchasing power",
+  "text": "The GDP numbers are not PPP (purchasing power parity) numbers. A dollar buys more in some countries than in others, and these numbers do not correct for that, so comparing GDP per person across countries shows market-rate dollars, not living standards.",
+  "kind": "note"
+ },
+ {
+  "source_id": "note-gdp-per-person",
+  "title": "How GDP per person is computed here",
+  "text": "GDP per person is computed by this project as GDP divided by population of the same country and year, in current US dollars. It is an average. It is missing when either the GDP or the population is missing.",
+  "kind": "note"
+ },
+ {
+  "source_id": "note-coverage",
+  "title": "Years and countries covered",
+  "text": "The prepared table keeps the years from 1990. Population goes to 2025 and GDP to 2023. Some territories have population but no GDP at all, for example Gibraltar, the British Virgin Islands and North Korea. A missing value means the source has none, it does not mean zero.",
+  "kind": "note"
+ },
+ {
+  "source_id": "note-aggregates",
+  "title": "Countries, territories and the world",
+  "text": "The table lists countries and territories plus one aggregate, the World, with the code WLD. Regions, income groups and other World Bank groups are removed. Kosovo has the World Bank code XKX, which is not an official ISO country code.",
+  "kind": "note"
+ }
+]

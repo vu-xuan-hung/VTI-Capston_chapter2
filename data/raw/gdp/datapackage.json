@@ -1,0 +1,126 @@
+{
+  "description": "Country, regional and world GDP in current US Dollars ($). Regional means collections of countries e.g. Europe & Central Asia. Data is sourced from the World Bank and turned into a standard normalized CSV.",
+  "image": "http://assets.okfn.org/p/opendatahandbook/img/data-wrench.png",
+  "keywords": [
+    "GDP",
+    "World",
+    "Gross Domestic Product",
+    "Time series"
+  ],
+  "last_updated": "2026-04-08",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0"
+    }
+  ],
+  "name": "gdp",
+  "views": [
+    {
+      "name": "top-economies",
+      "title": "GDP of the World's 10 Largest Economies (2000\u20132023)",
+      "description": "GDP in current USD for the top 10 economies since 2000. The US has held a commanding lead throughout, while China's rapid ascent is the defining economic shift of the century. India overtook the UK and France in the early 2020s.",
+      "resources": [
+        "top-economies"
+      ],
+      "specType": "plot",
+      "spec": {
+        "height": 460,
+        "marginLeft": 65,
+        "marginRight": 20,
+        "x": {
+          "label": "Year",
+          "tickFormat": ".0f"
+        },
+        "y": {
+          "label": "GDP (USD Trillion)",
+          "grid": true
+        },
+        "color": {
+          "legend": true
+        },
+        "marks": [
+          {
+            "type": "line",
+            "x": "year",
+            "y": "gdp_trillion",
+            "stroke": "country",
+            "strokeWidth": 2,
+            "tip": true
+          }
+        ]
+      }
+    }
+  ],
+  "resources": [
+    {
+      "name": "top-economies",
+      "path": "data/top-economies.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "GDP in current USD trillions for the world's 10 largest economies, covering 2000–2023. Derived from the main gdp resource.",
+      "schema": {
+        "fields": [
+          {
+            "name": "country",
+            "type": "string",
+            "description": "Country name"
+          },
+          {
+            "name": "year",
+            "type": "year",
+            "description": "Year of the GDP observation"
+          },
+          {
+            "name": "gdp_trillion",
+            "type": "number",
+            "description": "GDP in current USD trillions"
+          }
+        ]
+      }
+    },
+    {
+      "name": "gdp",
+      "path": "data/gdp.csv",
+      "description": "Country, regional and world GDP in current USD. Each row is one country/region for one year. Sourced from the World Bank indicator NY.GDP.MKTP.CD.",
+      "schema": {
+        "fields": [
+          {
+            "name": "Country Name",
+            "type": "string",
+            "description": "Country or region name as given by the World Bank"
+          },
+          {
+            "name": "Country Code",
+            "type": "string",
+            "description": "ISO 3166-1 alpha-3 country code or World Bank region code"
+          },
+          {
+            "name": "Year",
+            "type": "year",
+            "description": "Year of the GDP observation"
+          },
+          {
+            "description": "GDP in current USD",
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "name": "World Bank and OECD",
+      "path": "http://data.worldbank.org/indicator/NY.GDP.MKTP.CD",
+      "title": "World Bank and OECD"
+    }
+  ],
+  "title": "Country, Regional and World GDP (Gross Domestic Product)",
+  "version": "2026",
+  "collection": "economic-data",
+  "has_solutions": [
+    "global-country-region-reference-data"
+  ]
+}

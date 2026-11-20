@@ -1,0 +1,54 @@
+{
+ "backend": "server",
+ "rows": [
+  {
+   "id": "F1",
+   "question": "What does GDP mean?",
+   "code": "GDP stands for gross domestic product, which is the total value of all goods and services produced within a country's borders in a specific time period, typically measured in current U.S. dollars.",
+   "flow": "GDP stands for gross domestic product, which is the total value of all goods and services produced within a country's borders in a specific time period, typically measured in current U.S. dollars.",
+   "code_missing_terms": [],
+   "flow_missing_terms": [],
+   "code_unverified": [],
+   "flow_unverified": []
+  },
+  {
+   "id": "F2",
+   "question": "Is the GDP in this table adjusted for inflation?",
+   "code": "No, the GDP in this table is not adjusted for inflation; it reflects actual economic activity without adjustments for changes in purchasing power over time.",
+   "flow": "I do not know from the notes.",
+   "code_missing_terms": [
+    "current"
+   ],
+   "flow_missing_terms": [
+    "current",
+    "not adjusted"
+   ],
+   "code_unverified": [],
+   "flow_unverified": []
+  },
+  {
+   "id": "F3",
+   "question": "How is GDP per person computed here?",
+   "code": "GDP per person is computed by dividing the GDP of a country by its population for that same year, expressed in current US dollars.",
+   "flow": "GDP per person is computed by dividing the GDP of a country by its population for that same year, expressed in current US dollars.",
+   "code_missing_terms": [
+    "divided by"
+   ],
+   "flow_missing_terms": [
+    "divided by"
+   ],
+   "code_unverified": [],
+   "flow_unverified": []
+  },
+  {
+   "id": "F4",
+   "question": "What was the population of Vietnam in 2015?",
+   "code": "In 2015, the population of Vietnam was 92,823,254 people.",
+   "flow": "I do not know from the notes.",
+   "code_missing_terms": [],
+   "flow_missing_terms": [],
+   "code_unverified": [],
+   "flow_unverified": []
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "indicator": "population",
+    "title": "Population",
+    "unit": "people",
+    "description": "Total population: the number of people of a country in a year, from the World Bank series SP.POP.TOTL.",
+    "caveats": "Mid-year estimates; definitions of who is counted differ a little between countries.",
+    "synonyms": ["population", "number of people", "inhabitants", "residents", "how many people live", "headcount"]
+  },
+  {
+    "indicator": "gdp",
+    "title": "GDP",
+    "unit": "current US$",
+    "description": "Gross domestic product: the total value of goods and services a country produces in a year, in current US dollars (World Bank series NY.GDP.MKTP.CD).",
+    "caveats": "Current prices, so not adjusted for inflation; converted to dollars, not corrected for price levels (not PPP).",
+    "synonyms": ["gdp", "gross domestic product", "economy size", "size of the economy", "economy", "economic output", "total output"]
+  },
+  {
+    "indicator": "gdp_per_capita",
+    "title": "GDP per person",
+    "unit": "current US$",
+    "description": "GDP per person: GDP divided by the population of the same year, in current US dollars. Computed by this project from the two World Bank series; it is not a separate World Bank download.",
+    "caveats": "Current prices, not inflation-adjusted, not PPP; an average, it says nothing about how income is shared.",
+    "synonyms": ["gdp per capita", "gdp per person", "gdp per head", "per capita gdp", "output per person", "economic output per inhabitant"]
+  }
+]

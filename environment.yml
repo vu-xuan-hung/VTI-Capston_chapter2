@@ -1,0 +1,12 @@
+# One environment for this project (Python 3.12):
+#   conda env create -f environment.yml
+#   conda activate cap-facts
+#   pip install -e . --no-deps
+name: cap-facts
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - -r requirements.txt

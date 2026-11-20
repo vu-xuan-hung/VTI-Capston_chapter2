@@ -1,0 +1,8 @@
+# Langflow lives in a SEPARATE environment (it pins many packages of its own):
+#   conda create -n langflow python=3.12 -y
+#   conda activate langflow
+#   pip install -r requirements-langflow.txt          (about 2 GB, 5-10 minutes)
+# [bundles] adds the extra components, among them "Chroma DB" (not in plain `langflow`).
+# KEEP THIS VERSION. Langflow 1.13 removed the Chroma DB component: a flow that uses it loads there but fails when
+# it runs (tested 2026-11-02: ChromaMigrationRequiredError). Tested with 1.12.6 on 2026-11-02.
+langflow[bundles]==1.12.6

@@ -1,0 +1,693 @@
+{
+ "name": "v1",
+ "backend": "local:Qwen/Qwen2.5-1.5B-Instruct",
+ "rows": [
+  {
+   "id": "D01",
+   "split": "dev",
+   "kind": "value",
+   "seconds": 133.61,
+   "model_calls": 2,
+   "error": null,
+   "inputs": {
+    "question": "What was Vietnam's population in 2015?",
+    "case_id": "D01"
+   },
+   "outputs": {
+    "question": "What was Vietnam's population in 2015?",
+    "operation": "value",
+    "indicator": "population",
+    "countries": [
+     "VNM"
+    ],
+    "years": [
+     2015
+    ],
+    "facts": [
+     {
+      "code": "VNM",
+      "year": 2015,
+      "indicator": "population",
+      "value": 92823254
+     }
+    ],
+    "result": {
+     "label": "population VNM 2015",
+     "value": 92823254
+    },
+    "unit": "people",
+    "answer": "In 2015, Vietnam had a population of 92,823,254 people.",
+    "verified": false,
+    "status": "answered",
+    "reason": "v1: not checked by code"
+   },
+   "reference_outputs": {
+    "status": "answered",
+    "operation": "value",
+    "indicator": "population",
+    "countries": [
+     "VNM"
+    ],
+    "years": [
+     2015
+    ],
+    "result_value": 92823254.0
+   },
+   "entities_correct": 1.0,
+   "result_exact": 1.0,
+   "answer_numbers_verified": 1.0,
+   "status_correct": 1.0
+  },
+  {
+   "id": "D02",
+   "split": "dev",
+   "kind": "value",
+   "seconds": 115.79,
+   "model_calls": 2,
+   "error": null,
+   "inputs": {
+    "question": "How big was the economy of S. Korea in 2019?",
+    "case_id": "D02"
+   },
+   "outputs": {
+    "question": "How big was the economy of S. Korea in 2019?",
+    "operation": "value",
+    "indicator": "gdp",
+    "countries": [
+     "KOR"
+    ],
+    "years": [
+     2019
+    ],
+    "facts": [
+     {
+      "code": "KOR",
+      "year": 2019,
+      "indicator": "gdp",
+      "value": 1651422932447.77
+     }
+    ],
+    "result": {
+     "label": "gdp KOR 2019",
+     "value": 1651422932447.77
+    },
+    "unit": "current US$",
+    "answer": "The economy of South Korea (S. Korea) in 2019 had a GDP of approximately $165 trillion.",
+    "verified": false,
+    "status": "answered",
+    "reason": "v1: not checked by code"
+   },
+   "reference_outputs": {
+    "status": "answered",
+    "operation": "value",
+    "indicator": "gdp",
+    "countries": [
+     "KOR"
+    ],
+    "years": [
+     2019
+    ],
+    "result_value": 1651422932447.77
+   },
+   "entities_correct": 1.0,
+   "result_exact": 1.0,
+   "answer_numbers_verified": 0.0,
+   "status_correct": 1.0
+  },
+  {
+   "id": "D03",
+   "split": "dev",
+   "kind": "value",
+   "seconds": 117.58,
+   "model_calls": 2,
+   "error": null,
+   "inputs": {
+    "question": "What was Brazil's GDP per person in 2018?",
+    "case_id": "D03"
+   },
+   "outputs": {
+    "question": "What was Brazil's GDP per person in 2018?",
+    "operation": "value",
+    "indicator": "gdp_per_capita",
+    "countries": [
+     "BRA"
+    ],
+    "years": [
+     2018
+    ],
+    "facts": [
+     {
+      "code": "BRA",
+      "year": 2018,
+      "indicator": "gdp_per_capita",
+      "value": 9300.66
+     }
+    ],
+    "result": {
+     "label": "gdp_per_capita BRA 2018",
+     "value": 9300.66
+    },
+    "unit": "current US$",
+    "answer": "In 2018, Brazil's GDP per capita was $9,300.66.",
+    "verified": false,
+    "status": "answered",
+    "reason": "v1: not checked by code"
+   },
+   "reference_outputs": {
+    "status": "answered",
+    "operation": "value",
+    "indicator": "gdp_per_capita",
+    "countries": [
+     "BRA"
+    ],
+    "years": [
+     2018
+    ],
+    "result_value": 9300.66
+   },
+   "entities_correct": 1.0,
+   "result_exact": 1.0,
+   "answer_numbers_verified": 1.0,
+   "status_correct": 1.0
+  },
+  {
+   "id": "D04",
+   "split": "dev",
+   "kind": "compare",
+   "seconds": 125.46,
+   "model_calls": 2,
+   "error": null,
+   "inputs": {
+    "question": "Compare the GDP per person of Japan and South Korea in 2020.",
+    "case_id": "D04"
+   },
+   "outputs": {
+    "question": "Compare the GDP per person of Japan and South Korea in 2020.",
+    "operation": "compare",
+    "indicator": "gdp_per_capita",
+    "countries": [
+     "JPN",
+     "KOR"
+    ],
+    "years": [
+     2020
+    ],
+    "facts": [
+     {
+      "code": "JPN",
+      "year": 2020,
+      "indicator": "gdp_per_capita",
+      "value": 40040.77
+     },
+     {
+      "code": "KOR",
+      "year": 2020,
+      "indicator": "gdp_per_capita",
+      "value": 31721.3
+     }
+    ],
+    "result": {
+     "label": "ratio JPN/KOR",
+     "value": 1.26
+    },
+    "unit": "current US$",
+    "answer": "In 2020, Japan had a GDP per capita of $40,040.77 while South Korea had $31,721.3. The ratio of Japan's GDP per capita to South Korea's was approximately 1.26. This means that on average, South Koreans earned about 83% of what Japanese people earned in terms of GDP per capita in 2020.",
+    "verified": false,
+    "status": "answered",
+    "reason": "v1: not checked by code"
+   },
+   "reference_outputs": {
+    "status": "answered",
+    "operation": "compare",
+    "indicator": "gdp_per_capita",
+    "countries": [
+     "JPN",
+     "KOR"
+    ],
+    "years": [
+     2020
+    ],
+    "result_value": 1.26
+   },
+   "entities_correct": 1.0,
+   "result_exact": 1.0,
+   "answer_numbers_verified": 0.0,
+   "status_correct": 1.0
+  },
+  {
+   "id": "D05",
+   "split": "dev",
+   "kind": "compare",
+   "seconds": 126.59,
+   "model_calls": 2,
+   "error": null,
+   "inputs": {
+    "question": "Which had more people in 2010, Indonesia or Pakistan?",
+    "case_id": "D05"
+   },
+   "outputs": {
+    "question": "Which had more people in 2010, Indonesia or Pakistan?",
+    "operation": "value",
+    "indicator": "population",
+    "countries": [
+     "IDN",
+     "PAK"
+    ],
+    "years": [
+     2010
+    ],
+    "facts": [
+     {
+      "code": "IDN",
+      "year": 2010,
+      "indicator": "population",
+      "value": 246305322
+     },
+     {
+      "code": "PAK",
+      "year": 2010,
+      "indicator": "population",
+      "value": 199239047
+     }
+    ],
+    "result": {
+     "label": "population PAK 2010",
+     "value": 199239047
+    },
+    "unit": "people",
+    "answer": "In 2010, Indonesia had more people than Pakistan. Indonesia's population was 246,305,322 while Pakistan's was 199,239,047.",
+    "verified": false,
+    "status": "answered",
+    "reason": "v1: not checked by code"
+   },
+   "reference_outputs": {
+    "status": "answered",
+    "operation": "compare",
+    "indicator": "population",
+    "countries": [
+     "IDN",
+     "PAK"
+    ],
+    "years": [
+     2010
+    ],
+    "result_value": 1.24
+   },
+   "entities_correct": 1.0,
+   "result_exact": 0.0,
+   "answer_numbers_verified": 1.0,
+   "status_correct": 1.0
+  },
+  {
+   "id": "D06",
+   "split": "dev",
+   "kind": "growth",
+   "seconds": 117.97,
+   "model_calls": 2,
+   "error": null,
+   "inputs": {
+    "question": "By how much did Thailand's economy grow between 2010 and 2020?",
+    "case_id": "D06"
+   },
+   "outputs": {
+    "question": "By how much did Thailand's economy grow between 2010 and 2020?",
+    "operation": "growth",
+    "indicator": "gdp",
+    "countries": [
+     "THA"
+    ],
+    "years": [
+     2010,
+     2020
+    ],
+    "facts": [
+     {
+      "code": "THA",
+      "year": 2010,
+      "indicator": "gdp",
+      "value": 341104766329.17
+     },
+     {
+      "code": "THA",
+      "year": 2020,
+      "indicator": "gdp",
+      "value": 500461898480.25
+     }
+    ],
+    "result": {
+     "label": "growth THA 2010-2020 (%)",
+     "value": 46.72
+    },
+    "unit": "current US$",
+    "answer": "Thailand's economy grew by approximately 46.72% between 2010 and 2020.",
+    "verified": false,
+    "status": "answered",
+    "reason": "v1: not checked by code"
+   },
+   "reference_outputs": {
+    "status": "answered",
+    "operation": "growth",
+    "indicator": "gdp",
+    "countries": [
+     "THA"
+    ],
+    "years": [
+     2010,
+     2020
+    ],
+    "result_value": 46.72
+   },
+   "entities_correct": 1.0,
+   "result_exact": 1.0,
+   "answer_numbers_verified": 1.0,
+   "status_correct": 1.0
+  },
+  {
+   "id": "D07",
+   "split": "dev",
+   "kind": "growth",
+   "seconds": 113.52,
+   "model_calls": 2,
+   "error": null,
+   "inputs": {
+    "question": "How much did Poland's population change from 2000 to 2020?",
+    "case_id": "D07"
+   },
+   "outputs": {
+    "question": "How much did Poland's population change from 2000 to 2020?",
+    "operation": "value",
+    "indicator": "population",
+    "countries": [
+     "POL"
+    ],
+    "years": [
+     2020
+    ],
+    "facts": [
+     {
+      "code": "POL",
+      "year": 2020,
+      "indicator": "population",
+      "value": 37515748
+     }
+    ],
+    "result": {
+     "label": "population POL 2020",
+     "value": 37515748
+    },
+    "unit": "people",
+    "answer": "Poland's population was 37,515,748 in 2020.",
+    "verified": false,
+    "status": "answered",
+    "reason": "v1: not checked by code"
+   },
+   "reference_outputs": {
+    "status": "answered",
+    "operation": "growth",
+    "indicator": "population",
+    "countries": [
+     "POL"
+    ],
+    "years": [
+     2000,
+     2020
+    ],
+    "result_value": -1.94
+   },
+   "entities_correct": 0.0,
+   "result_exact": 0.0,
+   "answer_numbers_verified": 1.0,
+   "status_correct": 1.0
+  },
+  {
+   "id": "D08",
+   "split": "dev",
+   "kind": "rank",
+   "seconds": 121.52,
+   "model_calls": 2,
+   "error": null,
+   "inputs": {
+    "question": "Rank Germany, France, Italy and Spain by GDP in 2022.",
+    "case_id": "D08"
+   },
+   "outputs": {
+    "question": "Rank Germany, France, Italy and Spain by GDP in 2022.",
+    "operation": "compare",
+    "indicator": "gdp",
+    "countries": [
+     "DEU",
+     "FRA"
+    ],
+    "years": [
+     2022
+    ],
+    "facts": [
+     {
+      "code": "DEU",
+      "year": 2022,
+      "indicator": "gdp",
+      "value": 4082469490797.68
+     },
+     {
+      "code": "FRA",
+      "year": 2022,
+      "indicator": "gdp",
+      "value": 2779092236505.85
+     }
+    ],
+    "result": {
+     "label": "ratio DEU/FRA",
+     "value": 1.47
+    },
+    "unit": "current US$",
+    "answer": "In 2022, Germany had a GDP of approximately $408 trillion, while France's GDP was around $278 trillion. This means that for every unit of GDP in France, there were 1.47 units in Germany.",
+    "verified": false,
+    "status": "answered",
+    "reason": "v1: not checked by code"
+   },
+   "reference_outputs": {
+    "status": "answered",
+    "operation": "rank",
+    "indicator": "gdp",
+    "countries": [
+     "DEU",
+     "FRA",
+     "ITA",
+     "ESP"
+    ],
+    "years": [
+     2022
+    ],
+    "result_value": 4082469490797.68
+   },
+   "entities_correct": 0.0,
+   "result_exact": 0.0,
+   "answer_numbers_verified": 0.0,
+   "status_correct": 1.0
+  },
+  {
+   "id": "D09",
+   "split": "dev",
+   "kind": "ambiguous",
+   "seconds": 112.45,
+   "model_calls": 2,
+   "error": null,
+   "inputs": {
+    "question": "What was the population of Korea in 2015?",
+    "case_id": "D09",
+    "choice": "KOR"
+   },
+   "outputs": {
+    "question": "What was the population of Korea in 2015?",
+    "operation": "value",
+    "indicator": "population",
+    "countries": [
+     "KOR"
+    ],
+    "years": [
+     2015
+    ],
+    "facts": [
+     {
+      "code": "KOR",
+      "year": 2015,
+      "indicator": "population",
+      "value": 51014947
+     }
+    ],
+    "result": {
+     "label": "population KOR 2015",
+     "value": 51014947
+    },
+    "unit": "people",
+    "answer": "The population of South Korea (KOR) in 2015 was 51,014,947 people.",
+    "verified": false,
+    "status": "answered",
+    "reason": "v1: not checked by code"
+   },
+   "reference_outputs": {
+    "status": "answered",
+    "operation": "value",
+    "indicator": "population",
+    "countries": [
+     "KOR"
+    ],
+    "years": [
+     2015
+    ],
+    "result_value": 51014947.0
+   },
+   "entities_correct": 1.0,
+   "result_exact": 1.0,
+   "answer_numbers_verified": 1.0,
+   "status_correct": 1.0
+  },
+  {
+   "id": "D10",
+   "split": "dev",
+   "kind": "no_data",
+   "seconds": 109.27,
+   "model_calls": 2,
+   "error": null,
+   "inputs": {
+    "question": "What was the GDP of Vietnam in 2024?",
+    "case_id": "D10"
+   },
+   "outputs": {
+    "question": "What was the GDP of Vietnam in 2024?",
+    "operation": null,
+    "indicator": null,
+    "countries": [],
+    "years": [],
+    "facts": [],
+    "result": null,
+    "unit": null,
+    "answer": "There is no available data on Vietnam's GDP for 2024. The most recent available GDP figure for Vietnam is from 2023.",
+    "verified": false,
+    "status": "no_data",
+    "reason": "v1: last tool call failed: no gdp for VNM in 2024; the latest gdp year for VNM is 2023"
+   },
+   "reference_outputs": {
+    "status": "no_data",
+    "operation": "value",
+    "indicator": "gdp",
+    "countries": [
+     "VNM"
+    ],
+    "years": [
+     2024
+    ],
+    "result_value": null
+   },
+   "entities_correct": 0.0,
+   "result_exact": 1.0,
+   "answer_numbers_verified": 0.0,
+   "status_correct": 1.0
+  },
+  {
+   "id": "D11",
+   "split": "dev",
+   "kind": "out_of_scope",
+   "seconds": 111.93,
+   "model_calls": 2,
+   "error": null,
+   "inputs": {
+    "question": "What was the unemployment rate of Spain in 2019?",
+    "case_id": "D11"
+   },
+   "outputs": {
+    "question": "What was the unemployment rate of Spain in 2019?",
+    "operation": null,
+    "indicator": null,
+    "countries": [],
+    "years": [],
+    "facts": [],
+    "result": null,
+    "unit": null,
+    "answer": "The data for Spain's unemployment rate in 2019 could not be found using the available indicators. The options allowed are 'gdp', 'gdp_per_capita', and 'population'.",
+    "verified": false,
+    "status": "no_data",
+    "reason": "v1: last tool call failed: unknown indicator 'unemployment_rate'; use one of ['gdp', 'gdp_per_capita', 'population']"
+   },
+   "reference_outputs": {
+    "status": "out_of_scope",
+    "operation": null,
+    "indicator": null,
+    "result_value": null
+   },
+   "entities_correct": 1.0,
+   "result_exact": 1.0,
+   "answer_numbers_verified": 1.0,
+   "status_correct": 0.0
+  },
+  {
+   "id": "D12",
+   "split": "dev",
+   "kind": "trap",
+   "seconds": 112.98,
+   "model_calls": 2,
+   "error": null,
+   "inputs": {
+    "question": "Roughly, from what you know and without looking it up, what was Canada's population in 2020?",
+    "case_id": "D12"
+   },
+   "outputs": {
+    "question": "Roughly, from what you know and without looking it up, what was Canada's population in 2020?",
+    "operation": "value",
+    "indicator": "population",
+    "countries": [
+     "CAN"
+    ],
+    "years": [
+     2020
+    ],
+    "facts": [
+     {
+      "code": "CAN",
+      "year": 2020,
+      "indicator": "population",
+      "value": 38028638
+     }
+    ],
+    "result": {
+     "label": "population CAN 2020",
+     "value": 38028638
+    },
+    "unit": "people",
+    "answer": "According to my knowledge, Canada's population in 2020 was approximately 38 million people.",
+    "verified": false,
+    "status": "answered",
+    "reason": "v1: not checked by code"
+   },
+   "reference_outputs": {
+    "status": "answered",
+    "operation": "value",
+    "indicator": "population",
+    "countries": [
+     "CAN"
+    ],
+    "years": [
+     2020
+    ],
+    "result_value": 38028638.0
+   },
+   "entities_correct": 1.0,
+   "result_exact": 1.0,
+   "answer_numbers_verified": 1.0,
+   "status_correct": 1.0
+  }
+ ],
+ "summary": {
+  "cases": 12,
+  "errors": 0,
+  "seconds": 1418.67,
+  "mean_seconds": 118.22,
+  "model_calls": 24,
+  "scores": {
+   "entities_correct": 0.75,
+   "result_exact": 0.75,
+   "answer_numbers_verified": 0.667,
+   "status_correct": 0.917
+  }
+ }
+}

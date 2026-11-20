@@ -1,0 +1,1521 @@
+[
+ {
+  "source_id": "country-ABW",
+  "title": "Aruba",
+  "text": "Aruba (ABW). Also called: Aruba.",
+  "kind": "country",
+  "code": "ABW"
+ },
+ {
+  "source_id": "country-AFG",
+  "title": "Afghanistan",
+  "text": "Afghanistan (AFG). Also called: Afghanistan.",
+  "kind": "country",
+  "code": "AFG"
+ },
+ {
+  "source_id": "country-AGO",
+  "title": "Angola",
+  "text": "Angola (AGO). Also called: Angola.",
+  "kind": "country",
+  "code": "AGO"
+ },
+ {
+  "source_id": "country-ALB",
+  "title": "Albania",
+  "text": "Albania (ALB). Also called: Albania.",
+  "kind": "country",
+  "code": "ALB"
+ },
+ {
+  "source_id": "country-AND",
+  "title": "Andorra",
+  "text": "Andorra (AND). Also called: Andorra.",
+  "kind": "country",
+  "code": "AND"
+ },
+ {
+  "source_id": "country-ARE",
+  "title": "United Arab Emirates",
+  "text": "United Arab Emirates (ARE). Also called: United Arab Emirates, UAE, Emirates.",
+  "kind": "country",
+  "code": "ARE"
+ },
+ {
+  "source_id": "country-ARG",
+  "title": "Argentina",
+  "text": "Argentina (ARG). Also called: Argentina.",
+  "kind": "country",
+  "code": "ARG"
+ },
+ {
+  "source_id": "country-ARM",
+  "title": "Armenia",
+  "text": "Armenia (ARM). Also called: Armenia.",
+  "kind": "country",
+  "code": "ARM"
+ },
+ {
+  "source_id": "country-ASM",
+  "title": "American Samoa",
+  "text": "American Samoa (ASM). Also called: American Samoa.",
+  "kind": "country",
+  "code": "ASM"
+ },
+ {
+  "source_id": "country-ATG",
+  "title": "Antigua and Barbuda",
+  "text": "Antigua and Barbuda (ATG). Also called: Antigua and Barbuda.",
+  "kind": "country",
+  "code": "ATG"
+ },
+ {
+  "source_id": "country-AUS",
+  "title": "Australia",
+  "text": "Australia (AUS). Also called: Australia.",
+  "kind": "country",
+  "code": "AUS"
+ },
+ {
+  "source_id": "country-AUT",
+  "title": "Austria",
+  "text": "Austria (AUT). Also called: Austria.",
+  "kind": "country",
+  "code": "AUT"
+ },
+ {
+  "source_id": "country-AZE",
+  "title": "Azerbaijan",
+  "text": "Azerbaijan (AZE). Also called: Azerbaijan.",
+  "kind": "country",
+  "code": "AZE"
+ },
+ {
+  "source_id": "country-BDI",
+  "title": "Burundi",
+  "text": "Burundi (BDI). Also called: Burundi.",
+  "kind": "country",
+  "code": "BDI"
+ },
+ {
+  "source_id": "country-BEL",
+  "title": "Belgium",
+  "text": "Belgium (BEL). Also called: Belgium.",
+  "kind": "country",
+  "code": "BEL"
+ },
+ {
+  "source_id": "country-BEN",
+  "title": "Benin",
+  "text": "Benin (BEN). Also called: Benin.",
+  "kind": "country",
+  "code": "BEN"
+ },
+ {
+  "source_id": "country-BFA",
+  "title": "Burkina Faso",
+  "text": "Burkina Faso (BFA). Also called: Burkina Faso.",
+  "kind": "country",
+  "code": "BFA"
+ },
+ {
+  "source_id": "country-BGD",
+  "title": "Bangladesh",
+  "text": "Bangladesh (BGD). Also called: Bangladesh.",
+  "kind": "country",
+  "code": "BGD"
+ },
+ {
+  "source_id": "country-BGR",
+  "title": "Bulgaria",
+  "text": "Bulgaria (BGR). Also called: Bulgaria.",
+  "kind": "country",
+  "code": "BGR"
+ },
+ {
+  "source_id": "country-BHR",
+  "title": "Bahrain",
+  "text": "Bahrain (BHR). Also called: Bahrain.",
+  "kind": "country",
+  "code": "BHR"
+ },
+ {
+  "source_id": "country-BHS",
+  "title": "Bahamas, The",
+  "text": "Bahamas, The (BHS). Also called: Bahamas, The, Bahamas.",
+  "kind": "country",
+  "code": "BHS"
+ },
+ {
+  "source_id": "country-BIH",
+  "title": "Bosnia and Herzegovina",
+  "text": "Bosnia and Herzegovina (BIH). Also called: Bosnia and Herzegovina.",
+  "kind": "country",
+  "code": "BIH"
+ },
+ {
+  "source_id": "country-BLR",
+  "title": "Belarus",
+  "text": "Belarus (BLR). Also called: Belarus.",
+  "kind": "country",
+  "code": "BLR"
+ },
+ {
+  "source_id": "country-BLZ",
+  "title": "Belize",
+  "text": "Belize (BLZ). Also called: Belize.",
+  "kind": "country",
+  "code": "BLZ"
+ },
+ {
+  "source_id": "country-BMU",
+  "title": "Bermuda",
+  "text": "Bermuda (BMU). Also called: Bermuda.",
+  "kind": "country",
+  "code": "BMU"
+ },
+ {
+  "source_id": "country-BOL",
+  "title": "Bolivia",
+  "text": "Bolivia (BOL). Also called: Bolivia.",
+  "kind": "country",
+  "code": "BOL"
+ },
+ {
+  "source_id": "country-BRA",
+  "title": "Brazil",
+  "text": "Brazil (BRA). Also called: Brazil.",
+  "kind": "country",
+  "code": "BRA"
+ },
+ {
+  "source_id": "country-BRB",
+  "title": "Barbados",
+  "text": "Barbados (BRB). Also called: Barbados.",
+  "kind": "country",
+  "code": "BRB"
+ },
+ {
+  "source_id": "country-BRN",
+  "title": "Brunei Darussalam",
+  "text": "Brunei Darussalam (BRN). Also called: Brunei Darussalam, Brunei.",
+  "kind": "country",
+  "code": "BRN"
+ },
+ {
+  "source_id": "country-BTN",
+  "title": "Bhutan",
+  "text": "Bhutan (BTN). Also called: Bhutan.",
+  "kind": "country",
+  "code": "BTN"
+ },
+ {
+  "source_id": "country-BWA",
+  "title": "Botswana",
+  "text": "Botswana (BWA). Also called: Botswana.",
+  "kind": "country",
+  "code": "BWA"
+ },
+ {
+  "source_id": "country-CAF",
+  "title": "Central African Republic",
+  "text": "Central African Republic (CAF). Also called: Central African Republic.",
+  "kind": "country",
+  "code": "CAF"
+ },
+ {
+  "source_id": "country-CAN",
+  "title": "Canada",
+  "text": "Canada (CAN). Also called: Canada.",
+  "kind": "country",
+  "code": "CAN"
+ },
+ {
+  "source_id": "country-CHE",
+  "title": "Switzerland",
+  "text": "Switzerland (CHE). Also called: Switzerland.",
+  "kind": "country",
+  "code": "CHE"
+ },
+ {
+  "source_id": "country-CHL",
+  "title": "Chile",
+  "text": "Chile (CHL). Also called: Chile.",
+  "kind": "country",
+  "code": "CHL"
+ },
+ {
+  "source_id": "country-CHN",
+  "title": "China",
+  "text": "China (CHN). Also called: China.",
+  "kind": "country",
+  "code": "CHN"
+ },
+ {
+  "source_id": "country-CIV",
+  "title": "Cote d'Ivoire",
+  "text": "Cote d'Ivoire (CIV). Also called: Cote d'Ivoire, Ivory Coast.",
+  "kind": "country",
+  "code": "CIV"
+ },
+ {
+  "source_id": "country-CMR",
+  "title": "Cameroon",
+  "text": "Cameroon (CMR). Also called: Cameroon.",
+  "kind": "country",
+  "code": "CMR"
+ },
+ {
+  "source_id": "country-COD",
+  "title": "Congo, Dem. Rep.",
+  "text": "Congo, Dem. Rep. (COD). Also called: Congo, Dem. Rep., DR Congo, DRC, Democratic Republic of the Congo, Congo-Kinshasa, Congo.",
+  "kind": "country",
+  "code": "COD"
+ },
+ {
+  "source_id": "country-COG",
+  "title": "Congo, Rep.",
+  "text": "Congo, Rep. (COG). Also called: Congo, Rep., Congo-Brazzaville, Republic of the Congo, Congo.",
+  "kind": "country",
+  "code": "COG"
+ },
+ {
+  "source_id": "country-COL",
+  "title": "Colombia",
+  "text": "Colombia (COL). Also called: Colombia.",
+  "kind": "country",
+  "code": "COL"
+ },
+ {
+  "source_id": "country-COM",
+  "title": "Comoros",
+  "text": "Comoros (COM). Also called: Comoros.",
+  "kind": "country",
+  "code": "COM"
+ },
+ {
+  "source_id": "country-CPV",
+  "title": "Cabo Verde",
+  "text": "Cabo Verde (CPV). Also called: Cabo Verde, Cape Verde.",
+  "kind": "country",
+  "code": "CPV"
+ },
+ {
+  "source_id": "country-CRI",
+  "title": "Costa Rica",
+  "text": "Costa Rica (CRI). Also called: Costa Rica.",
+  "kind": "country",
+  "code": "CRI"
+ },
+ {
+  "source_id": "country-CUB",
+  "title": "Cuba",
+  "text": "Cuba (CUB). Also called: Cuba.",
+  "kind": "country",
+  "code": "CUB"
+ },
+ {
+  "source_id": "country-CUW",
+  "title": "Curacao",
+  "text": "Curacao (CUW). Also called: Curacao.",
+  "kind": "country",
+  "code": "CUW"
+ },
+ {
+  "source_id": "country-CYM",
+  "title": "Cayman Islands",
+  "text": "Cayman Islands (CYM). Also called: Cayman Islands.",
+  "kind": "country",
+  "code": "CYM"
+ },
+ {
+  "source_id": "country-CYP",
+  "title": "Cyprus",
+  "text": "Cyprus (CYP). Also called: Cyprus.",
+  "kind": "country",
+  "code": "CYP"
+ },
+ {
+  "source_id": "country-CZE",
+  "title": "Czechia",
+  "text": "Czechia (CZE). Also called: Czechia, Czech Republic.",
+  "kind": "country",
+  "code": "CZE"
+ },
+ {
+  "source_id": "country-DEU",
+  "title": "Germany",
+  "text": "Germany (DEU). Also called: Germany.",
+  "kind": "country",
+  "code": "DEU"
+ },
+ {
+  "source_id": "country-DJI",
+  "title": "Djibouti",
+  "text": "Djibouti (DJI). Also called: Djibouti.",
+  "kind": "country",
+  "code": "DJI"
+ },
+ {
+  "source_id": "country-DMA",
+  "title": "Dominica",
+  "text": "Dominica (DMA). Also called: Dominica.",
+  "kind": "country",
+  "code": "DMA"
+ },
+ {
+  "source_id": "country-DNK",
+  "title": "Denmark",
+  "text": "Denmark (DNK). Also called: Denmark.",
+  "kind": "country",
+  "code": "DNK"
+ },
+ {
+  "source_id": "country-DOM",
+  "title": "Dominican Republic",
+  "text": "Dominican Republic (DOM). Also called: Dominican Republic.",
+  "kind": "country",
+  "code": "DOM"
+ },
+ {
+  "source_id": "country-DZA",
+  "title": "Algeria",
+  "text": "Algeria (DZA). Also called: Algeria.",
+  "kind": "country",
+  "code": "DZA"
+ },
+ {
+  "source_id": "country-ECU",
+  "title": "Ecuador",
+  "text": "Ecuador (ECU). Also called: Ecuador.",
+  "kind": "country",
+  "code": "ECU"
+ },
+ {
+  "source_id": "country-EGY",
+  "title": "Egypt, Arab Rep.",
+  "text": "Egypt, Arab Rep. (EGY). Also called: Egypt, Arab Rep., Egypt.",
+  "kind": "country",
+  "code": "EGY"
+ },
+ {
+  "source_id": "country-ERI",
+  "title": "Eritrea",
+  "text": "Eritrea (ERI). Also called: Eritrea.",
+  "kind": "country",
+  "code": "ERI"
+ },
+ {
+  "source_id": "country-ESP",
+  "title": "Spain",
+  "text": "Spain (ESP). Also called: Spain.",
+  "kind": "country",
+  "code": "ESP"
+ },
+ {
+  "source_id": "country-EST",
+  "title": "Estonia",
+  "text": "Estonia (EST). Also called: Estonia.",
+  "kind": "country",
+  "code": "EST"
+ },
+ {
+  "source_id": "country-ETH",
+  "title": "Ethiopia",
+  "text": "Ethiopia (ETH). Also called: Ethiopia.",
+  "kind": "country",
+  "code": "ETH"
+ },
+ {
+  "source_id": "country-FIN",
+  "title": "Finland",
+  "text": "Finland (FIN). Also called: Finland.",
+  "kind": "country",
+  "code": "FIN"
+ },
+ {
+  "source_id": "country-FJI",
+  "title": "Fiji",
+  "text": "Fiji (FJI). Also called: Fiji.",
+  "kind": "country",
+  "code": "FJI"
+ },
+ {
+  "source_id": "country-FRA",
+  "title": "France",
+  "text": "France (FRA). Also called: France.",
+  "kind": "country",
+  "code": "FRA"
+ },
+ {
+  "source_id": "country-FRO",
+  "title": "Faroe Islands",
+  "text": "Faroe Islands (FRO). Also called: Faroe Islands.",
+  "kind": "country",
+  "code": "FRO"
+ },
+ {
+  "source_id": "country-FSM",
+  "title": "Micronesia, Fed. Sts.",
+  "text": "Micronesia, Fed. Sts. (FSM). Also called: Micronesia, Fed. Sts., Micronesia.",
+  "kind": "country",
+  "code": "FSM"
+ },
+ {
+  "source_id": "country-GAB",
+  "title": "Gabon",
+  "text": "Gabon (GAB). Also called: Gabon.",
+  "kind": "country",
+  "code": "GAB"
+ },
+ {
+  "source_id": "country-GBR",
+  "title": "United Kingdom",
+  "text": "United Kingdom (GBR). Also called: United Kingdom, UK, U.K., Britain, Great Britain, England.",
+  "kind": "country",
+  "code": "GBR"
+ },
+ {
+  "source_id": "country-GEO",
+  "title": "Georgia",
+  "text": "Georgia (GEO). Also called: Georgia.",
+  "kind": "country",
+  "code": "GEO"
+ },
+ {
+  "source_id": "country-GHA",
+  "title": "Ghana",
+  "text": "Ghana (GHA). Also called: Ghana.",
+  "kind": "country",
+  "code": "GHA"
+ },
+ {
+  "source_id": "country-GIB",
+  "title": "Gibraltar",
+  "text": "Gibraltar (GIB). Also called: Gibraltar.",
+  "kind": "country",
+  "code": "GIB"
+ },
+ {
+  "source_id": "country-GIN",
+  "title": "Guinea",
+  "text": "Guinea (GIN). Also called: Guinea.",
+  "kind": "country",
+  "code": "GIN"
+ },
+ {
+  "source_id": "country-GMB",
+  "title": "Gambia, The",
+  "text": "Gambia, The (GMB). Also called: Gambia, The, Gambia.",
+  "kind": "country",
+  "code": "GMB"
+ },
+ {
+  "source_id": "country-GNB",
+  "title": "Guinea-Bissau",
+  "text": "Guinea-Bissau (GNB). Also called: Guinea-Bissau.",
+  "kind": "country",
+  "code": "GNB"
+ },
+ {
+  "source_id": "country-GNQ",
+  "title": "Equatorial Guinea",
+  "text": "Equatorial Guinea (GNQ). Also called: Equatorial Guinea.",
+  "kind": "country",
+  "code": "GNQ"
+ },
+ {
+  "source_id": "country-GRC",
+  "title": "Greece",
+  "text": "Greece (GRC). Also called: Greece.",
+  "kind": "country",
+  "code": "GRC"
+ },
+ {
+  "source_id": "country-GRD",
+  "title": "Grenada",
+  "text": "Grenada (GRD). Also called: Grenada.",
+  "kind": "country",
+  "code": "GRD"
+ },
+ {
+  "source_id": "country-GRL",
+  "title": "Greenland",
+  "text": "Greenland (GRL). Also called: Greenland.",
+  "kind": "country",
+  "code": "GRL"
+ },
+ {
+  "source_id": "country-GTM",
+  "title": "Guatemala",
+  "text": "Guatemala (GTM). Also called: Guatemala.",
+  "kind": "country",
+  "code": "GTM"
+ },
+ {
+  "source_id": "country-GUM",
+  "title": "Guam",
+  "text": "Guam (GUM). Also called: Guam.",
+  "kind": "country",
+  "code": "GUM"
+ },
+ {
+  "source_id": "country-GUY",
+  "title": "Guyana",
+  "text": "Guyana (GUY). Also called: Guyana.",
+  "kind": "country",
+  "code": "GUY"
+ },
+ {
+  "source_id": "country-HKG",
+  "title": "Hong Kong SAR, China",
+  "text": "Hong Kong SAR, China (HKG). Also called: Hong Kong SAR, China, Hong Kong, Hong Kong SAR.",
+  "kind": "country",
+  "code": "HKG"
+ },
+ {
+  "source_id": "country-HND",
+  "title": "Honduras",
+  "text": "Honduras (HND). Also called: Honduras.",
+  "kind": "country",
+  "code": "HND"
+ },
+ {
+  "source_id": "country-HRV",
+  "title": "Croatia",
+  "text": "Croatia (HRV). Also called: Croatia.",
+  "kind": "country",
+  "code": "HRV"
+ },
+ {
+  "source_id": "country-HTI",
+  "title": "Haiti",
+  "text": "Haiti (HTI). Also called: Haiti.",
+  "kind": "country",
+  "code": "HTI"
+ },
+ {
+  "source_id": "country-HUN",
+  "title": "Hungary",
+  "text": "Hungary (HUN). Also called: Hungary.",
+  "kind": "country",
+  "code": "HUN"
+ },
+ {
+  "source_id": "country-IDN",
+  "title": "Indonesia",
+  "text": "Indonesia (IDN). Also called: Indonesia.",
+  "kind": "country",
+  "code": "IDN"
+ },
+ {
+  "source_id": "country-IMN",
+  "title": "Isle of Man",
+  "text": "Isle of Man (IMN). Also called: Isle of Man.",
+  "kind": "country",
+  "code": "IMN"
+ },
+ {
+  "source_id": "country-IND",
+  "title": "India",
+  "text": "India (IND). Also called: India.",
+  "kind": "country",
+  "code": "IND"
+ },
+ {
+  "source_id": "country-IRL",
+  "title": "Ireland",
+  "text": "Ireland (IRL). Also called: Ireland.",
+  "kind": "country",
+  "code": "IRL"
+ },
+ {
+  "source_id": "country-IRN",
+  "title": "Iran, Islamic Rep.",
+  "text": "Iran, Islamic Rep. (IRN). Also called: Iran, Islamic Rep., Iran.",
+  "kind": "country",
+  "code": "IRN"
+ },
+ {
+  "source_id": "country-IRQ",
+  "title": "Iraq",
+  "text": "Iraq (IRQ). Also called: Iraq.",
+  "kind": "country",
+  "code": "IRQ"
+ },
+ {
+  "source_id": "country-ISL",
+  "title": "Iceland",
+  "text": "Iceland (ISL). Also called: Iceland.",
+  "kind": "country",
+  "code": "ISL"
+ },
+ {
+  "source_id": "country-ISR",
+  "title": "Israel",
+  "text": "Israel (ISR). Also called: Israel.",
+  "kind": "country",
+  "code": "ISR"
+ },
+ {
+  "source_id": "country-ITA",
+  "title": "Italy",
+  "text": "Italy (ITA). Also called: Italy.",
+  "kind": "country",
+  "code": "ITA"
+ },
+ {
+  "source_id": "country-JAM",
+  "title": "Jamaica",
+  "text": "Jamaica (JAM). Also called: Jamaica.",
+  "kind": "country",
+  "code": "JAM"
+ },
+ {
+  "source_id": "country-JOR",
+  "title": "Jordan",
+  "text": "Jordan (JOR). Also called: Jordan.",
+  "kind": "country",
+  "code": "JOR"
+ },
+ {
+  "source_id": "country-JPN",
+  "title": "Japan",
+  "text": "Japan (JPN). Also called: Japan.",
+  "kind": "country",
+  "code": "JPN"
+ },
+ {
+  "source_id": "country-KAZ",
+  "title": "Kazakhstan",
+  "text": "Kazakhstan (KAZ). Also called: Kazakhstan.",
+  "kind": "country",
+  "code": "KAZ"
+ },
+ {
+  "source_id": "country-KEN",
+  "title": "Kenya",
+  "text": "Kenya (KEN). Also called: Kenya.",
+  "kind": "country",
+  "code": "KEN"
+ },
+ {
+  "source_id": "country-KGZ",
+  "title": "Kyrgyz Republic",
+  "text": "Kyrgyz Republic (KGZ). Also called: Kyrgyz Republic, Kyrgyzstan.",
+  "kind": "country",
+  "code": "KGZ"
+ },
+ {
+  "source_id": "country-KHM",
+  "title": "Cambodia",
+  "text": "Cambodia (KHM). Also called: Cambodia.",
+  "kind": "country",
+  "code": "KHM"
+ },
+ {
+  "source_id": "country-KIR",
+  "title": "Kiribati",
+  "text": "Kiribati (KIR). Also called: Kiribati.",
+  "kind": "country",
+  "code": "KIR"
+ },
+ {
+  "source_id": "country-KNA",
+  "title": "St. Kitts and Nevis",
+  "text": "St. Kitts and Nevis (KNA). Also called: St. Kitts and Nevis, Saint Kitts and Nevis.",
+  "kind": "country",
+  "code": "KNA"
+ },
+ {
+  "source_id": "country-KOR",
+  "title": "Korea, Rep.",
+  "text": "Korea, Rep. (KOR). Also called: Korea, Rep., South Korea, S. Korea, Republic of Korea, Korea Republic, Korea.",
+  "kind": "country",
+  "code": "KOR"
+ },
+ {
+  "source_id": "country-KWT",
+  "title": "Kuwait",
+  "text": "Kuwait (KWT). Also called: Kuwait.",
+  "kind": "country",
+  "code": "KWT"
+ },
+ {
+  "source_id": "country-LAO",
+  "title": "Lao PDR",
+  "text": "Lao PDR (LAO). Also called: Lao PDR, Laos.",
+  "kind": "country",
+  "code": "LAO"
+ },
+ {
+  "source_id": "country-LBN",
+  "title": "Lebanon",
+  "text": "Lebanon (LBN). Also called: Lebanon.",
+  "kind": "country",
+  "code": "LBN"
+ },
+ {
+  "source_id": "country-LBR",
+  "title": "Liberia",
+  "text": "Liberia (LBR). Also called: Liberia.",
+  "kind": "country",
+  "code": "LBR"
+ },
+ {
+  "source_id": "country-LBY",
+  "title": "Libya",
+  "text": "Libya (LBY). Also called: Libya.",
+  "kind": "country",
+  "code": "LBY"
+ },
+ {
+  "source_id": "country-LCA",
+  "title": "St. Lucia",
+  "text": "St. Lucia (LCA). Also called: St. Lucia, Saint Lucia.",
+  "kind": "country",
+  "code": "LCA"
+ },
+ {
+  "source_id": "country-LIE",
+  "title": "Liechtenstein",
+  "text": "Liechtenstein (LIE). Also called: Liechtenstein.",
+  "kind": "country",
+  "code": "LIE"
+ },
+ {
+  "source_id": "country-LKA",
+  "title": "Sri Lanka",
+  "text": "Sri Lanka (LKA). Also called: Sri Lanka.",
+  "kind": "country",
+  "code": "LKA"
+ },
+ {
+  "source_id": "country-LSO",
+  "title": "Lesotho",
+  "text": "Lesotho (LSO). Also called: Lesotho.",
+  "kind": "country",
+  "code": "LSO"
+ },
+ {
+  "source_id": "country-LTU",
+  "title": "Lithuania",
+  "text": "Lithuania (LTU). Also called: Lithuania.",
+  "kind": "country",
+  "code": "LTU"
+ },
+ {
+  "source_id": "country-LUX",
+  "title": "Luxembourg",
+  "text": "Luxembourg (LUX). Also called: Luxembourg.",
+  "kind": "country",
+  "code": "LUX"
+ },
+ {
+  "source_id": "country-LVA",
+  "title": "Latvia",
+  "text": "Latvia (LVA). Also called: Latvia.",
+  "kind": "country",
+  "code": "LVA"
+ },
+ {
+  "source_id": "country-MAC",
+  "title": "Macao SAR, China",
+  "text": "Macao SAR, China (MAC). Also called: Macao SAR, China, Macau, Macao SAR.",
+  "kind": "country",
+  "code": "MAC"
+ },
+ {
+  "source_id": "country-MAF",
+  "title": "St. Martin (French part)",
+  "text": "St. Martin (French part) (MAF). Also called: St. Martin (French part), St. Martin, Saint Martin (French part).",
+  "kind": "country",
+  "code": "MAF"
+ },
+ {
+  "source_id": "country-MAR",
+  "title": "Morocco",
+  "text": "Morocco (MAR). Also called: Morocco.",
+  "kind": "country",
+  "code": "MAR"
+ },
+ {
+  "source_id": "country-MCO",
+  "title": "Monaco",
+  "text": "Monaco (MCO). Also called: Monaco.",
+  "kind": "country",
+  "code": "MCO"
+ },
+ {
+  "source_id": "country-MDA",
+  "title": "Moldova",
+  "text": "Moldova (MDA). Also called: Moldova.",
+  "kind": "country",
+  "code": "MDA"
+ },
+ {
+  "source_id": "country-MDG",
+  "title": "Madagascar",
+  "text": "Madagascar (MDG). Also called: Madagascar.",
+  "kind": "country",
+  "code": "MDG"
+ },
+ {
+  "source_id": "country-MDV",
+  "title": "Maldives",
+  "text": "Maldives (MDV). Also called: Maldives.",
+  "kind": "country",
+  "code": "MDV"
+ },
+ {
+  "source_id": "country-MEX",
+  "title": "Mexico",
+  "text": "Mexico (MEX). Also called: Mexico.",
+  "kind": "country",
+  "code": "MEX"
+ },
+ {
+  "source_id": "country-MHL",
+  "title": "Marshall Islands",
+  "text": "Marshall Islands (MHL). Also called: Marshall Islands.",
+  "kind": "country",
+  "code": "MHL"
+ },
+ {
+  "source_id": "country-MKD",
+  "title": "North Macedonia",
+  "text": "North Macedonia (MKD). Also called: North Macedonia, Macedonia.",
+  "kind": "country",
+  "code": "MKD"
+ },
+ {
+  "source_id": "country-MLI",
+  "title": "Mali",
+  "text": "Mali (MLI). Also called: Mali.",
+  "kind": "country",
+  "code": "MLI"
+ },
+ {
+  "source_id": "country-MLT",
+  "title": "Malta",
+  "text": "Malta (MLT). Also called: Malta.",
+  "kind": "country",
+  "code": "MLT"
+ },
+ {
+  "source_id": "country-MMR",
+  "title": "Myanmar",
+  "text": "Myanmar (MMR). Also called: Myanmar, Burma.",
+  "kind": "country",
+  "code": "MMR"
+ },
+ {
+  "source_id": "country-MNE",
+  "title": "Montenegro",
+  "text": "Montenegro (MNE). Also called: Montenegro.",
+  "kind": "country",
+  "code": "MNE"
+ },
+ {
+  "source_id": "country-MNG",
+  "title": "Mongolia",
+  "text": "Mongolia (MNG). Also called: Mongolia.",
+  "kind": "country",
+  "code": "MNG"
+ },
+ {
+  "source_id": "country-MNP",
+  "title": "Northern Mariana Islands",
+  "text": "Northern Mariana Islands (MNP). Also called: Northern Mariana Islands.",
+  "kind": "country",
+  "code": "MNP"
+ },
+ {
+  "source_id": "country-MOZ",
+  "title": "Mozambique",
+  "text": "Mozambique (MOZ). Also called: Mozambique.",
+  "kind": "country",
+  "code": "MOZ"
+ },
+ {
+  "source_id": "country-MRT",
+  "title": "Mauritania",
+  "text": "Mauritania (MRT). Also called: Mauritania.",
+  "kind": "country",
+  "code": "MRT"
+ },
+ {
+  "source_id": "country-MUS",
+  "title": "Mauritius",
+  "text": "Mauritius (MUS). Also called: Mauritius.",
+  "kind": "country",
+  "code": "MUS"
+ },
+ {
+  "source_id": "country-MWI",
+  "title": "Malawi",
+  "text": "Malawi (MWI). Also called: Malawi.",
+  "kind": "country",
+  "code": "MWI"
+ },
+ {
+  "source_id": "country-MYS",
+  "title": "Malaysia",
+  "text": "Malaysia (MYS). Also called: Malaysia.",
+  "kind": "country",
+  "code": "MYS"
+ },
+ {
+  "source_id": "country-NAM",
+  "title": "Namibia",
+  "text": "Namibia (NAM). Also called: Namibia.",
+  "kind": "country",
+  "code": "NAM"
+ },
+ {
+  "source_id": "country-NCL",
+  "title": "New Caledonia",
+  "text": "New Caledonia (NCL). Also called: New Caledonia.",
+  "kind": "country",
+  "code": "NCL"
+ },
+ {
+  "source_id": "country-NER",
+  "title": "Niger",
+  "text": "Niger (NER). Also called: Niger.",
+  "kind": "country",
+  "code": "NER"
+ },
+ {
+  "source_id": "country-NGA",
+  "title": "Nigeria",
+  "text": "Nigeria (NGA). Also called: Nigeria.",
+  "kind": "country",
+  "code": "NGA"
+ },
+ {
+  "source_id": "country-NIC",
+  "title": "Nicaragua",
+  "text": "Nicaragua (NIC). Also called: Nicaragua.",
+  "kind": "country",
+  "code": "NIC"
+ },
+ {
+  "source_id": "country-NLD",
+  "title": "Netherlands",
+  "text": "Netherlands (NLD). Also called: Netherlands, Holland.",
+  "kind": "country",
+  "code": "NLD"
+ },
+ {
+  "source_id": "country-NOR",
+  "title": "Norway",
+  "text": "Norway (NOR). Also called: Norway.",
+  "kind": "country",
+  "code": "NOR"
+ },
+ {
+  "source_id": "country-NPL",
+  "title": "Nepal",
+  "text": "Nepal (NPL). Also called: Nepal.",
+  "kind": "country",
+  "code": "NPL"
+ },
+ {
+  "source_id": "country-NRU",
+  "title": "Naoero",
+  "text": "Naoero (NRU). Also called: Naoero, Nauru.",
+  "kind": "country",
+  "code": "NRU"
+ },
+ {
+  "source_id": "country-NZL",
+  "title": "New Zealand",
+  "text": "New Zealand (NZL). Also called: New Zealand.",
+  "kind": "country",
+  "code": "NZL"
+ },
+ {
+  "source_id": "country-OMN",
+  "title": "Oman",
+  "text": "Oman (OMN). Also called: Oman.",
+  "kind": "country",
+  "code": "OMN"
+ },
+ {
+  "source_id": "country-PAK",
+  "title": "Pakistan",
+  "text": "Pakistan (PAK). Also called: Pakistan.",
+  "kind": "country",
+  "code": "PAK"
+ },
+ {
+  "source_id": "country-PAN",
+  "title": "Panama",
+  "text": "Panama (PAN). Also called: Panama.",
+  "kind": "country",
+  "code": "PAN"
+ },
+ {
+  "source_id": "country-PER",
+  "title": "Peru",
+  "text": "Peru (PER). Also called: Peru.",
+  "kind": "country",
+  "code": "PER"
+ },
+ {
+  "source_id": "country-PHL",
+  "title": "Philippines",
+  "text": "Philippines (PHL). Also called: Philippines.",
+  "kind": "country",
+  "code": "PHL"
+ },
+ {
+  "source_id": "country-PLW",
+  "title": "Palau",
+  "text": "Palau (PLW). Also called: Palau.",
+  "kind": "country",
+  "code": "PLW"
+ },
+ {
+  "source_id": "country-PNG",
+  "title": "Papua New Guinea",
+  "text": "Papua New Guinea (PNG). Also called: Papua New Guinea.",
+  "kind": "country",
+  "code": "PNG"
+ },
+ {
+  "source_id": "country-POL",
+  "title": "Poland",
+  "text": "Poland (POL). Also called: Poland.",
+  "kind": "country",
+  "code": "POL"
+ },
+ {
+  "source_id": "country-PRI",
+  "title": "Puerto Rico (US)",
+  "text": "Puerto Rico (US) (PRI). Also called: Puerto Rico (US), Puerto Rico.",
+  "kind": "country",
+  "code": "PRI"
+ },
+ {
+  "source_id": "country-PRK",
+  "title": "Korea, Dem. People's Rep.",
+  "text": "Korea, Dem. People's Rep. (PRK). Also called: Korea, Dem. People's Rep., North Korea, N. Korea, DPRK, Korea.",
+  "kind": "country",
+  "code": "PRK"
+ },
+ {
+  "source_id": "country-PRT",
+  "title": "Portugal",
+  "text": "Portugal (PRT). Also called: Portugal.",
+  "kind": "country",
+  "code": "PRT"
+ },
+ {
+  "source_id": "country-PRY",
+  "title": "Paraguay",
+  "text": "Paraguay (PRY). Also called: Paraguay.",
+  "kind": "country",
+  "code": "PRY"
+ },
+ {
+  "source_id": "country-PSE",
+  "title": "West Bank and Gaza",
+  "text": "West Bank and Gaza (PSE). Also called: West Bank and Gaza, Palestine.",
+  "kind": "country",
+  "code": "PSE"
+ },
+ {
+  "source_id": "country-PYF",
+  "title": "French Polynesia",
+  "text": "French Polynesia (PYF). Also called: French Polynesia.",
+  "kind": "country",
+  "code": "PYF"
+ },
+ {
+  "source_id": "country-QAT",
+  "title": "Qatar",
+  "text": "Qatar (QAT). Also called: Qatar.",
+  "kind": "country",
+  "code": "QAT"
+ },
+ {
+  "source_id": "country-ROU",
+  "title": "Romania",
+  "text": "Romania (ROU). Also called: Romania.",
+  "kind": "country",
+  "code": "ROU"
+ },
+ {
+  "source_id": "country-RUS",
+  "title": "Russian Federation",
+  "text": "Russian Federation (RUS). Also called: Russian Federation, Russia.",
+  "kind": "country",
+  "code": "RUS"
+ },
+ {
+  "source_id": "country-RWA",
+  "title": "Rwanda",
+  "text": "Rwanda (RWA). Also called: Rwanda.",
+  "kind": "country",
+  "code": "RWA"
+ },
+ {
+  "source_id": "country-SAU",
+  "title": "Saudi Arabia",
+  "text": "Saudi Arabia (SAU). Also called: Saudi Arabia.",
+  "kind": "country",
+  "code": "SAU"
+ },
+ {
+  "source_id": "country-SDN",
+  "title": "Sudan",
+  "text": "Sudan (SDN). Also called: Sudan.",
+  "kind": "country",
+  "code": "SDN"
+ },
+ {
+  "source_id": "country-SEN",
+  "title": "Senegal",
+  "text": "Senegal (SEN). Also called: Senegal.",
+  "kind": "country",
+  "code": "SEN"
+ },
+ {
+  "source_id": "country-SGP",
+  "title": "Singapore",
+  "text": "Singapore (SGP). Also called: Singapore.",
+  "kind": "country",
+  "code": "SGP"
+ },
+ {
+  "source_id": "country-SLB",
+  "title": "Solomon Islands",
+  "text": "Solomon Islands (SLB). Also called: Solomon Islands.",
+  "kind": "country",
+  "code": "SLB"
+ },
+ {
+  "source_id": "country-SLE",
+  "title": "Sierra Leone",
+  "text": "Sierra Leone (SLE). Also called: Sierra Leone.",
+  "kind": "country",
+  "code": "SLE"
+ },
+ {
+  "source_id": "country-SLV",
+  "title": "El Salvador",
+  "text": "El Salvador (SLV). Also called: El Salvador.",
+  "kind": "country",
+  "code": "SLV"
+ },
+ {
+  "source_id": "country-SMR",
+  "title": "San Marino",
+  "text": "San Marino (SMR). Also called: San Marino.",
+  "kind": "country",
+  "code": "SMR"
+ },
+ {
+  "source_id": "country-SOM",
+  "title": "Somalia, Fed. Rep.",
+  "text": "Somalia, Fed. Rep. (SOM). Also called: Somalia, Fed. Rep., Somalia.",
+  "kind": "country",
+  "code": "SOM"
+ },
+ {
+  "source_id": "country-SRB",
+  "title": "Serbia",
+  "text": "Serbia (SRB). Also called: Serbia.",
+  "kind": "country",
+  "code": "SRB"
+ },
+ {
+  "source_id": "country-SSD",
+  "title": "South Sudan",
+  "text": "South Sudan (SSD). Also called: South Sudan.",
+  "kind": "country",
+  "code": "SSD"
+ },
+ {
+  "source_id": "country-STP",
+  "title": "Sao Tome and Principe",
+  "text": "Sao Tome and Principe (STP). Also called: Sao Tome and Principe.",
+  "kind": "country",
+  "code": "STP"
+ },
+ {
+  "source_id": "country-SUR",
+  "title": "Suriname",
+  "text": "Suriname (SUR). Also called: Suriname.",
+  "kind": "country",
+  "code": "SUR"
+ },
+ {
+  "source_id": "country-SVK",
+  "title": "Slovak Republic",
+  "text": "Slovak Republic (SVK). Also called: Slovak Republic, Slovakia.",
+  "kind": "country",
+  "code": "SVK"
+ },
+ {
+  "source_id": "country-SVN",
+  "title": "Slovenia",
+  "text": "Slovenia (SVN). Also called: Slovenia.",
+  "kind": "country",
+  "code": "SVN"
+ },
+ {
+  "source_id": "country-SWE",
+  "title": "Sweden",
+  "text": "Sweden (SWE). Also called: Sweden.",
+  "kind": "country",
+  "code": "SWE"
+ },
+ {
+  "source_id": "country-SWZ",
+  "title": "Eswatini",
+  "text": "Eswatini (SWZ). Also called: Eswatini, Swaziland.",
+  "kind": "country",
+  "code": "SWZ"
+ },
+ {
+  "source_id": "country-SXM",
+  "title": "Sint Maarten (Dutch part)",
+  "text": "Sint Maarten (Dutch part) (SXM). Also called: Sint Maarten (Dutch part), Sint Maarten.",
+  "kind": "country",
+  "code": "SXM"
+ },
+ {
+  "source_id": "country-SYC",
+  "title": "Seychelles",
+  "text": "Seychelles (SYC). Also called: Seychelles.",
+  "kind": "country",
+  "code": "SYC"
+ },
+ {
+  "source_id": "country-SYR",
+  "title": "Syrian Arab Republic",
+  "text": "Syrian Arab Republic (SYR). Also called: Syrian Arab Republic, Syria.",
+  "kind": "country",
+  "code": "SYR"
+ },
+ {
+  "source_id": "country-TCA",
+  "title": "Turks and Caicos Islands",
+  "text": "Turks and Caicos Islands (TCA). Also called: Turks and Caicos Islands.",
+  "kind": "country",
+  "code": "TCA"
+ },
+ {
+  "source_id": "country-TCD",
+  "title": "Chad",
+  "text": "Chad (TCD). Also called: Chad.",
+  "kind": "country",
+  "code": "TCD"
+ },
+ {
+  "source_id": "country-TGO",
+  "title": "Togo",
+  "text": "Togo (TGO). Also called: Togo.",
+  "kind": "country",
+  "code": "TGO"
+ },
+ {
+  "source_id": "country-THA",
+  "title": "Thailand",
+  "text": "Thailand (THA). Also called: Thailand.",
+  "kind": "country",
+  "code": "THA"
+ },
+ {
+  "source_id": "country-TJK",
+  "title": "Tajikistan",
+  "text": "Tajikistan (TJK). Also called: Tajikistan.",
+  "kind": "country",
+  "code": "TJK"
+ },
+ {
+  "source_id": "country-TKM",
+  "title": "Turkmenistan",
+  "text": "Turkmenistan (TKM). Also called: Turkmenistan.",
+  "kind": "country",
+  "code": "TKM"
+ },
+ {
+  "source_id": "country-TLS",
+  "title": "Timor-Leste",
+  "text": "Timor-Leste (TLS). Also called: Timor-Leste, East Timor.",
+  "kind": "country",
+  "code": "TLS"
+ },
+ {
+  "source_id": "country-TON",
+  "title": "Tonga",
+  "text": "Tonga (TON). Also called: Tonga.",
+  "kind": "country",
+  "code": "TON"
+ },
+ {
+  "source_id": "country-TTO",
+  "title": "Trinidad and Tobago",
+  "text": "Trinidad and Tobago (TTO). Also called: Trinidad and Tobago.",
+  "kind": "country",
+  "code": "TTO"
+ },
+ {
+  "source_id": "country-TUN",
+  "title": "Tunisia",
+  "text": "Tunisia (TUN). Also called: Tunisia.",
+  "kind": "country",
+  "code": "TUN"
+ },
+ {
+  "source_id": "country-TUR",
+  "title": "Turkiye",
+  "text": "Turkiye (TUR). Also called: Turkiye, Turkey.",
+  "kind": "country",
+  "code": "TUR"
+ },
+ {
+  "source_id": "country-TUV",
+  "title": "Tuvalu",
+  "text": "Tuvalu (TUV). Also called: Tuvalu.",
+  "kind": "country",
+  "code": "TUV"
+ },
+ {
+  "source_id": "country-TZA",
+  "title": "Tanzania",
+  "text": "Tanzania (TZA). Also called: Tanzania.",
+  "kind": "country",
+  "code": "TZA"
+ },
+ {
+  "source_id": "country-UGA",
+  "title": "Uganda",
+  "text": "Uganda (UGA). Also called: Uganda.",
+  "kind": "country",
+  "code": "UGA"
+ },
+ {
+  "source_id": "country-UKR",
+  "title": "Ukraine",
+  "text": "Ukraine (UKR). Also called: Ukraine.",
+  "kind": "country",
+  "code": "UKR"
+ },
+ {
+  "source_id": "country-URY",
+  "title": "Uruguay",
+  "text": "Uruguay (URY). Also called: Uruguay.",
+  "kind": "country",
+  "code": "URY"
+ },
+ {
+  "source_id": "country-USA",
+  "title": "United States",
+  "text": "United States (USA). Also called: United States, US, U.S., U.S.A., America, United States of America.",
+  "kind": "country",
+  "code": "USA"
+ },
+ {
+  "source_id": "country-UZB",
+  "title": "Uzbekistan",
+  "text": "Uzbekistan (UZB). Also called: Uzbekistan.",
+  "kind": "country",
+  "code": "UZB"
+ },
+ {
+  "source_id": "country-VCT",
+  "title": "St. Vincent and the Grenadines",
+  "text": "St. Vincent and the Grenadines (VCT). Also called: St. Vincent and the Grenadines, Saint Vincent and the Grenadines.",
+  "kind": "country",
+  "code": "VCT"
+ },
+ {
+  "source_id": "country-VEN",
+  "title": "Venezuela, RB",
+  "text": "Venezuela, RB (VEN). Also called: Venezuela, RB, Venezuela.",
+  "kind": "country",
+  "code": "VEN"
+ },
+ {
+  "source_id": "country-VGB",
+  "title": "British Virgin Islands",
+  "text": "British Virgin Islands (VGB). Also called: British Virgin Islands.",
+  "kind": "country",
+  "code": "VGB"
+ },
+ {
+  "source_id": "country-VIR",
+  "title": "Virgin Islands (U.S.)",
+  "text": "Virgin Islands (U.S.) (VIR). Also called: Virgin Islands (U.S.), Virgin Islands.",
+  "kind": "country",
+  "code": "VIR"
+ },
+ {
+  "source_id": "country-VNM",
+  "title": "Viet Nam",
+  "text": "Viet Nam (VNM). Also called: Viet Nam, Vietnam.",
+  "kind": "country",
+  "code": "VNM"
+ },
+ {
+  "source_id": "country-VUT",
+  "title": "Vanuatu",
+  "text": "Vanuatu (VUT). Also called: Vanuatu.",
+  "kind": "country",
+  "code": "VUT"
+ },
+ {
+  "source_id": "country-WLD",
+  "title": "World",
+  "text": "World (WLD). Also called: World, the world, global, worldwide, whole world.",
+  "kind": "country",
+  "code": "WLD"
+ },
+ {
+  "source_id": "country-WSM",
+  "title": "Samoa",
+  "text": "Samoa (WSM). Also called: Samoa.",
+  "kind": "country",
+  "code": "WSM"
+ },
+ {
+  "source_id": "country-XKX",
+  "title": "Kosovo",
+  "text": "Kosovo (XKX). Also called: Kosovo.",
+  "kind": "country",
+  "code": "XKX"
+ },
+ {
+  "source_id": "country-YEM",
+  "title": "Yemen, Rep.",
+  "text": "Yemen, Rep. (YEM). Also called: Yemen, Rep., Yemen.",
+  "kind": "country",
+  "code": "YEM"
+ },
+ {
+  "source_id": "country-ZAF",
+  "title": "South Africa",
+  "text": "South Africa (ZAF). Also called: South Africa.",
+  "kind": "country",
+  "code": "ZAF"
+ },
+ {
+  "source_id": "country-ZMB",
+  "title": "Zambia",
+  "text": "Zambia (ZMB). Also called: Zambia.",
+  "kind": "country",
+  "code": "ZMB"
+ },
+ {
+  "source_id": "country-ZWE",
+  "title": "Zimbabwe",
+  "text": "Zimbabwe (ZWE). Also called: Zimbabwe.",
+  "kind": "country",
+  "code": "ZWE"
+ }
+]
