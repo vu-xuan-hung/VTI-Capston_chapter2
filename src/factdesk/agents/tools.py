@@ -94,6 +94,11 @@ def make_tools(table: FactsTable, numbers: FormatConfig) -> list[BaseTool]:
     #----------------------------------------------------------------------
     # The tools you write: get_value and growth
     #----------------------------------------------------------------------
+    # TODO T02 -- write the tools get_value(country, indicator, year) and growth(country, indicator, year_from, year_to):
+    # @tool functions with typed arguments and an Input/Output docstring (the model reads it), each returning
+    # run_tool(...) (JSON text, errors as JSON). Copy the shape of the given compare tool below.
+    # CHECK: pytest -k t02 -- get_value returns the fact as JSON, a wrong country name returns {"error": ...}, growth returns the percent.
+    # raise NotImplementedError("T02: get_value and growth tools")
 
     @tool
     def get_value(country: str, indicator: str, year: int) -> str:

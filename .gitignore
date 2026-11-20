@@ -2,7 +2,7 @@
 .env.*
 !.env.example
 !.env.langflow.example
-runtime/
+/runtime/
 kb_store/
 .cache/
 __pycache__/

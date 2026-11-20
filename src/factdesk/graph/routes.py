@@ -34,6 +34,11 @@ def after_link(state: FactState) -> str:
     if state.get("pending"):
         return "clarify"
     return "compute"
+    # TODO T04 -- return "decline" when state["status"]
+    # is set (link declined), "clarify" when state["pending"] is not empty,
+    # else "compute".
+    # CHECK: pytest -k t04 -- after_link returns the right node for the four states of the test.
+    # raise NotImplementedError("T04: after_link")
 
 
 #==========================================================================
@@ -49,10 +54,15 @@ def after_compute(state: FactState) -> str:
     Output:
         . node          : "explain" or "decline"
     """
+    # TODO T04 -- return "explain" when
+    # state["status"] == "answered", else "decline".
+    # CHECK: pytest -k t04 -- after_compute declines no_data and out_of_scope.
     status = state.get("status")
     if status == "answered":
         return "explain"
     return "decline"
+
+    # raise NotImplementedError("T04: after_compute")
 
 
 #==========================================================================
@@ -69,8 +79,11 @@ def after_verify(state: FactState) -> str:
     Output:
         . node          : END, "explain" or "template"
     """
+    # TODO T04 -- return END when state["verified"]; else "explain" while state["tries"] < state["max_tries"]; else "template".
+    # CHECK: pytest -k t04 -- tries 1 of 2 retries, tries 2 of 2 goes to the template answer.
     if state.get("verified"):
         return END
     if state.get("tries", 0) < state.get("max_tries", 0):
         return "explain"
     return "template"
+    # raise NotImplementedError("T04: after_verify")

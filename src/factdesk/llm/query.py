@@ -42,6 +42,13 @@ class Query(BaseModel):
     )
 
 
+    # TODO T01 -- add the four fields of Query,
+    # in this order: operation (Literal of value, compare, growth, rank, other),
+    # indicator_text (str), country_texts (list[str]),
+    # years (list[int]); each with Field(description=...) the model can read.
+    # CHECK: pytest -k t01 -- the field names are exactly these four and an invalid operation is refused.
+
+
 #==========================================================================
 # The parse chain
 #==========================================================================
@@ -55,7 +62,11 @@ def build_parse_chain(chat: BaseChatModel) -> Runnable:
     Output:
         . chain         : a runnable: {"question": str} -> Query
     """
+    # TODO T01 -- build ChatPromptTemplate.from_messages([("system", PARSE_SYSTEM), ("human", PARSE_HUMAN)]) and join it
+    # with chat.with_structured_output(Query) using the | operator; return the chain.
+    # CHECK: pytest -k t01 -- invoke({"question": ...}) returns a Query with the operation, country texts and years.
     chatTemple = ChatPromptTemplate.from_messages(
         [("system", PARSE_SYSTEM), ("human", PARSE_HUMAN)]
     )
     return chatTemple | chat.with_structured_output(Query)
+    # raise NotImplementedError("T01: parse chain")

@@ -84,3 +84,9 @@ def compare_answers(
             numbers=numbers,
         ),
     )
+    # TODO T08 -- return AnswerComparison(...): for each answer the expected_terms it does not contain (ignore case), and its numbers
+    # that find_unverified(...) reports against facts/result/years; when facts is None (a definition question) the numbers are not checked.
+    # CHECK: pytest -k t08 -- missing terms and unverified numbers of both answers; then python main.py flow-compare.
+
+
+#    raise NotImplementedError("T08: compare_answers")

@@ -81,3 +81,9 @@ def case_config(
         metadata={"version": version, "case_id": case_id, "backend": backend},
         extra_tags=(version,),
     )
+    # TODO T07 -- return run_config(tracing, tracer=tracer, run_name=f"{version}-{case_id}",
+    # metadata={"version", "case_id", "backend"}, extra_tags=(version,)). Then run both versions and fill my_work/notes.toml.
+    # CHECK: pytest -k t07 -- run name, tags, metadata and the tracer callback; the notes are checked by python main.py submit-check.
+
+
+# raise NotImplementedError("T07: case_config")

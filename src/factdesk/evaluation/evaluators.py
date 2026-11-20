@@ -78,6 +78,11 @@ def result_exact(
         return False
     allowed_error = abs(v2) * EvalConfig().result_rel_tol
     return abs(actual - v2) <= allowed_error
+    # TODO T06 -- compare outputs["result"]["value"] with reference_outputs["result_value"] within EvalConfig().result_rel_tol
+    # (relative). When the expected value is None,
+    # return True only if the run produced no result (outputs["result"] is None).
+    # CHECK: pytest -k t06 -- exact, within tolerance, wrong, missing, and the null-result cases.
+    # raise NotImplementedError("T06: result_exact")
 
 
 #==========================================================================
@@ -109,6 +114,12 @@ def answer_numbers_verified(
         years=outputs.get("years", []) + question_years,
         numbers=FormatConfig(),
     )
+
+
+    # TODO T06 -- return True when find_unverified(answer, facts=..., result=..., years=..., numbers=FormatConfig()) finds nothing;
+    # read answer, facts, result and years from the OUTPUTS of the run (it must also judge v1); allow the years written in inputs["question"].
+    # CHECK: pytest -k t06 -- an invented number fails, rounded table numbers pass, an answer with numbers but no facts fails.
+    # raise NotImplementedError("T06: answer_numbers_verified")
 
 
 #==========================================================================

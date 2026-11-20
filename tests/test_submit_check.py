@@ -57,7 +57,8 @@ def test_a_complete_submission_passes_and_each_gap_is_named(tmp_path: Path) -> N
     Input:
         . tmp_path      : temporary folder
     """
-    good = make_project(tmp_path, backend="local:Qwen", report="# Report\nfilled\n", stop="x = 1")
+    examples = '# raise NotImplementedError("T01: parse")\n"""\nraise NotImplementedError("T02: tools")\n"""'
+    good = make_project(tmp_path, backend="local:Qwen", report="# Report\nfilled\n", stop=examples)
     assert all(passed for passed, _ in submit_checks(good))
     other = tmp_path / "bad"
     other.mkdir()

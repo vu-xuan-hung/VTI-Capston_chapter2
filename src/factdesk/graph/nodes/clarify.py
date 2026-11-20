@@ -35,6 +35,11 @@ def clarify_node(state: FactState, *, outbox: Path) -> dict[str, Any]:
     #----------------------------------------------------------------------
     # Record the clarification request before pausing
     #----------------------------------------------------------------------
+    # TODO T05 -- take pending[0]; call notify_once(outbox, key=f"{thread_id}:{text}", payload=...) BEFORE the interrupt; then
+    # choice = interrupt({"question", "text", "options": candidates});
+    # refuse a choice that is not a candidate code (ValueError);
+    # return {"resolved": {**old resolved, text: choice}, "pending": [], "log": [...]}.
+    # CHECK: pytest -k t05 -- the graph stops with the options, resume stores the choice, the outbox has ONE line after resume.
     text_contry = state["pending"][0]
     notify_once(
         outbox,
@@ -60,3 +65,6 @@ def clarify_node(state: FactState, *, outbox: Path) -> dict[str, Any]:
         "pending": [],
         "log": [f"clarify: {text_contry['text']} -> {choice}"],
     }
+
+
+# raise NotImplementedError("T05: clarify node")

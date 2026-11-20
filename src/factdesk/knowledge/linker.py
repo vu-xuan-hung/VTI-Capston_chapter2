@@ -149,6 +149,15 @@ def link_country(
         )
 
 
+    # TODO T03 -- link one name: (1) exact alias via normalize(text)
+    # in index: one code = linked (score 1.0, method "alias"),
+    # several codes = ambiguous; (2) else store.search(text, k=graph.link_k, where={"kind": "country"}), best score per country;
+    # (3) unknown if nothing is above graph.country_min_score; ambiguous if another country is within graph.ambiguity_margin of
+    # the best or the best is below graph.country_confident_score; else linked. Return a Link with its Candidates.
+    # CHECK: pytest -k t03 -- and try python main.py link "S. Korea", link "Korea", link "Rep. of Korea".
+    # raise NotImplementedError("T03: link_country")
+
+
 #==========================================================================
 # Link the indicator name
 #==========================================================================
